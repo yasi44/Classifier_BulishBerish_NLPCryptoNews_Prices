@@ -49,10 +49,10 @@ Assumption about data: News need at least one week to be considered as mature(me
   - saved
 - Besides the voting information from each user, Cryptopanic.com only provides description and title of news.
 - Extera metrics:
-  -- Measure of readability of the article(high readability score causes user to read and understand an article) using two readability scoring methods. 
+  * Measure of readability of the article(high readability score causes user to read and understand an article) using two readability scoring methods. 
     . Smog Index (https://en.wikipedia.org/wiki/SMOG)
     . Coleman Liau Index (https://en.wikipedia.org/wiki/Coleman%E2%80%93Liau_index)
-  -- Polarity and subjectivity of the title and description(acquired using textblob).
+  * Polarity and subjectivity of the title and description(acquired using textblob).
     . polarity has a range of (-1, 1)
     . subjectivity has a range of (0, 1)
     . Create 1-hot-encode for all domains and authors
