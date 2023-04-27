@@ -1,4 +1,4 @@
-# Classifier_BulishBerishPredictor_NLPCryptoNews_Prices
+# Classifier_BulishPredictor_NLPCryptoNews_Prices
 
 ## Objective
 To Predict if we publish a news, it will have a 'Berish' or 'Bulish' feedback from users :D
