@@ -32,10 +32,11 @@ Assumption about data: News need at least one week to be considered as mature(me
   14 day
   7 day
   HT_TRENDMODE - Hilbert Transform - Trend vs Cycle Mode
-- close_n --> price n hours ago.
-  min_n --> minimum price Bitcoin has reached in the last n days.
-  max_n --> maximum price Bitcoin has reached in the last n days.
-  SMA_n_close --> Simple Moving Average on the close price over a period of n days.
+- 
+  * close_n --> price n hours ago.
+  * min_n --> minimum price Bitcoin has reached in the last n days.
+  * max_n --> maximum price Bitcoin has reached in the last n days.
+  * SMA_n_close --> Simple Moving Average on the close price over a period of n days.
 
 ### News Data and News-related extra metrics
 - Here the used articles sourced from Cryptopanic.com. This website contains a collection of opinions, and posts related to cryptocurrencies and blockchain technologies from various online sources(eddit, Twitter, Bitcoin.com, CCN.com, Coindesk.com, Ethereumworldnews.com, Dailyhodl.com, and WSJ.com, CryptoPanic) in different languages. Articles are sorted based on content(specific for a coin or coins), and it enables users to express their opinion of the article by voting on it. Eight voting options available for users: 
